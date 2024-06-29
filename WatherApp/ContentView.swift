@@ -82,7 +82,7 @@ struct WatherHorizantalView: View {
                 .resizable()
                 .foregroundStyle(.white, .yellow, .blue)
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 40,height: 40cd)
+                .frame(width: 40,height: 40)
             Text("\(wather.tempNum)°")
                 .font(.system(size: 28,weight: .medium,design: .default))
                 .foregroundColor(.white)
